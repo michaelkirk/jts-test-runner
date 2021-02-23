@@ -19,6 +19,6 @@ wkt = { version = "0.9", features = ["geo-types", "serde"] }
 pretty_env_logger = "*"
 
 [patch.crates-io]
-geo = { git = "https://github.com/georust/geo", branch = "mkirk/jts-test-runner" }
-geo-types = { git = "https://github.com/georust/geo", branch = "mkirk/jts-test-runner" }
-wkt = { git = "https://github.com/georust/wkt", branch = "mkirk/deserialize-point" }
+geo = { git = "https://github.com/georust/geo", branch = "mkirk/centroid-fixups" }
+geo-types = { git = "https://github.com/georust/geo", branch = "mkirk/centroid-fixups" }
+wkt = { git = "https://github.com/georust/wkt" }
